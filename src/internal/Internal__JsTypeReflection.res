@@ -1,9 +1,9 @@
-@ocaml.doc("
+/*
  * Note that the *third* definition of this function is
  * strictly necessary because the second one assumes
  * the raw function is already in scope, even in other
  * modules where it is not defined.
- ")
+ */
 %%raw(`
 function instanceOfClass(instance, _class) {
   try {
